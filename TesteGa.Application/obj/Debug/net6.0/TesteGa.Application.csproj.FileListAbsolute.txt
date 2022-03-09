@@ -1,0 +1,17 @@
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\bin\Debug\net6.0\TesteGa.Application.deps.json
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\bin\Debug\net6.0\TesteGa.Application.dll
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\bin\Debug\net6.0\TesteGa.Application.pdb
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\bin\Debug\net6.0\TesteGa.Domain.dll
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\bin\Debug\net6.0\TesteGa.Repository.dll
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\bin\Debug\net6.0\TesteGa.Domain.pdb
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\bin\Debug\net6.0\TesteGa.Repository.pdb
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\obj\Debug\net6.0\TesteGa.Application.csproj.AssemblyReference.cache
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\obj\Debug\net6.0\TesteGa.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\obj\Debug\net6.0\TesteGa.Application.AssemblyInfoInputs.cache
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\obj\Debug\net6.0\TesteGa.Application.AssemblyInfo.cs
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\obj\Debug\net6.0\TesteGa.Application.csproj.CoreCompileInputs.cache
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\obj\Debug\net6.0\TesteGa.Application.csproj.CopyComplete
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\obj\Debug\net6.0\TesteGa.Application.dll
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\obj\Debug\net6.0\refint\TesteGa.Application.dll
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\obj\Debug\net6.0\TesteGa.Application.pdb
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Application\obj\Debug\net6.0\ref\TesteGa.Application.dll
