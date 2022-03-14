@@ -1,0 +1,31 @@
+﻿@model IEnumerable<AnimalDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>lISTA DE ANIMAIS</h2>
+
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.Id)</th>
+        <th>@Html.DisplayNameFor(model => model.Tag)</th>
+        <th>@Html.DisplayNameFor(model => model.FazendaDto.Nome)</th>
+        <th>Acoes</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <th>@Html.DisplayFor(modelItem => item.Id)</th>
+        <th>@Html.DisplayFor(modelItem => item.Tag)</th>
+        <th>@Html.DisplayFor(modelItem => item.FazendaDto.Nome)</th>
+        <th>
+            @Html.ActionLink(
+                "Delete", 
+                "Delete", 
+                new { id = item.Id }, 
+                new { onclick = "return confirm('Deseja excluir o registro?');" }) 
+        </th>
+    </tr>
+    }
+</table>

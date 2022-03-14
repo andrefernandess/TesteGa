@@ -1,0 +1,21 @@
+﻿@model IEnumerable<FazendaDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>lISTA DE Fazendas</h2>
+
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.Id)</th>
+        <th>@Html.DisplayNameFor(model => model.Nome)</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+    <tr>
+        <th>@Html.DisplayFor(modelItem => item.Id)</th>
+        <th>@Html.DisplayFor(modelItem => item.Nome)</th>
+    </tr>
+    }
+</table>
