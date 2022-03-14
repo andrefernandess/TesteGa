@@ -200,7 +200,8 @@
       "TesteGa.Repository/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.3",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.3"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.3",
+          "TesteGa.Domain": "1.0.0"
         },
         "runtime": {
           "TesteGa.Repository.dll": {}

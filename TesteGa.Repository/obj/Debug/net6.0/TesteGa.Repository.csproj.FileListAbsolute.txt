@@ -12,3 +12,6 @@ C:\Users\Andre\Documents\testes\testeGa\TesteGa.Repository\obj\Debug\net6.0\refi
 C:\Users\Andre\Documents\testes\testeGa\TesteGa.Repository\obj\Debug\net6.0\TesteGa.Repository.pdb
 C:\Users\Andre\Documents\testes\testeGa\TesteGa.Repository\obj\Debug\net6.0\TesteGa.Repository.genruntimeconfig.cache
 C:\Users\Andre\Documents\testes\testeGa\TesteGa.Repository\obj\Debug\net6.0\ref\TesteGa.Repository.dll
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Repository\bin\Debug\net6.0\TesteGa.Domain.dll
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Repository\bin\Debug\net6.0\TesteGa.Domain.pdb
+C:\Users\Andre\Documents\testes\testeGa\TesteGa.Repository\obj\Debug\net6.0\TesteGa.Repository.csproj.CopyComplete

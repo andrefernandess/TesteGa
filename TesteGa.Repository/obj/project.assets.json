@@ -280,6 +280,16 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "TesteGa.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TesteGa.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TesteGa.Domain.dll": {}
+        }
       }
     }
   },
@@ -730,13 +740,20 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "TesteGa.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TesteGa.Domain/TesteGa.Domain.csproj",
+      "msbuildProject": "../TesteGa.Domain/TesteGa.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.EntityFrameworkCore >= 6.0.3",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.3",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.3"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.3",
+      "TesteGa.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -746,11 +763,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Andre\\Documents\\testes\\testeGa\\TesteGa.Repository\\TesteGa.Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Andre\\Documents\\testes\\testeGa\\TesteGa.Repository\\TesteGa.Repository.csproj",
       "projectName": "TesteGa.Repository",
-      "projectPath": "c:\\Users\\Andre\\Documents\\testes\\testeGa\\TesteGa.Repository\\TesteGa.Repository.csproj",
+      "projectPath": "C:\\Users\\Andre\\Documents\\testes\\testeGa\\TesteGa.Repository\\TesteGa.Repository.csproj",
       "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Andre\\Documents\\testes\\testeGa\\TesteGa.Repository\\obj\\",
+      "outputPath": "C:\\Users\\Andre\\Documents\\testes\\testeGa\\TesteGa.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -770,7 +787,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Andre\\Documents\\testes\\testeGa\\TesteGa.Domain\\TesteGa.Domain.csproj": {
+              "projectPath": "C:\\Users\\Andre\\Documents\\testes\\testeGa\\TesteGa.Domain\\TesteGa.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -784,6 +805,12 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.3, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.3, )"
           },

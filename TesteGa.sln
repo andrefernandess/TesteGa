@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteGa.Web", "TesteGa.Web\TesteGa.Web.csproj", "{70659862-9D7B-4683-8414-646001F50A7C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteGa.Application", "TesteGa.Application\TesteGa.Application.csproj", "{78BEE586-35AE-4CCF-A4F2-30FBEF4D1C77}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteGa.Domain", "TesteGa.Domain\TesteGa.Domain.csproj", "{A958700D-F743-4671-9DE2-13627C3D4BF9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteGa.Repository", "TesteGa.Repository\TesteGa.Repository.csproj", "{B79FBEC6-5F2B-47E7-8836-DDC30E05E6B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteGa.Ui", "TesteGa.Ui\TesteGa.Ui.csproj", "{64CC4815-DB09-4C29-9E81-EFBA8E367513}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +36,9 @@ Global
 		{B79FBEC6-5F2B-47E7-8836-DDC30E05E6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B79FBEC6-5F2B-47E7-8836-DDC30E05E6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B79FBEC6-5F2B-47E7-8836-DDC30E05E6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64CC4815-DB09-4C29-9E81-EFBA8E367513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CC4815-DB09-4C29-9E81-EFBA8E367513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CC4815-DB09-4C29-9E81-EFBA8E367513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CC4815-DB09-4C29-9E81-EFBA8E367513}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
